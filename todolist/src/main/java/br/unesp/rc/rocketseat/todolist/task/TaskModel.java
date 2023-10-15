@@ -22,7 +22,7 @@ public class TaskModel {
 
     private String description;
 
-    @Column(unique = true, length = 50)
+    @Column(length = 50)
     private String title;
     private LocalDateTime startAt;
     private LocalDateTime endAt;
